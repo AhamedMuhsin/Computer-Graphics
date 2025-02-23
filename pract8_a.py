@@ -11,7 +11,7 @@ def compute_code(x, y, x_min, y_min, x_max, y_max):
        code  |= LEFT 
     elif x > x_max: 
        code |=RIGHT 
-    if y < y_min:  
+    if y < y_min:         
        code |=BOTTOM 
     elif y > y_max:   
        code |= TOP 

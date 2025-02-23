@@ -14,7 +14,6 @@ def bresenham(x1,y1,x2,y2):
         else: 
             e=e+2*dy 
     return points 
-print (bresenham (5,5,13,9)) 
 
 def plot_line(points):
     plt.figure(figsize=(8,8))

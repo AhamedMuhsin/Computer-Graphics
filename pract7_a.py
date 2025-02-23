@@ -30,6 +30,6 @@ def main():
     angle = 45
     rotated_shape = rotate_shape(shape, angle)
     plot_shape(rotated_shape, f'Rotated Shape by {angle} Degrees')
-
+    print(rotate_shape)
 if __name__ == "__main__":
     main()
